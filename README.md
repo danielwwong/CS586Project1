@@ -15,3 +15,8 @@ It contains all games' IDs
 Currently, the project is built by obtaining 200 games per time, then pause for 305 seconds. And then obtaining the second 200 games and so on.
 
 Due to the problem that Steam API will not response after several hundreds of HTTP get command, the retrieve should be paused for several minutes every time.
+
+---
+
+Check this for Steam API's limitation:
+https://steamdb.info/blog/store-prices-api/
