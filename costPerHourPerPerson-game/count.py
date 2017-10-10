@@ -6,11 +6,15 @@ data.head()
 count = 0
 upper = 100
 lower = 0
+dataList = []
 countList = []
 
+for i in range(len(data['index'])):
+    dataList.append(data['avgCostPerHourPerPerson'][i])
+
 for i in range(0, 5869):
-    for j in range(len(data['index'])):
-        if (data['avgCostPerHourPerPerson'][j] < upper and data['avgCostPerHourPerPerson'][j] > lower):
+    for j in range(len(dataList)):
+        if (dataList[j] < upper and dataList[j] > lower):
             count += 1
 
     countList.append(count)
