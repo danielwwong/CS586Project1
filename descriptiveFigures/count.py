@@ -7,7 +7,7 @@ with open('game.json') as read:
     data = json.load(read)
 
 count = 0
-upper = 10
+upper = 100
 lower = 0
 idList = []
 dataList = []
@@ -26,3 +26,24 @@ for i in range(len(dataList)):
             priceList.append(0)
         else:
             priceList.append(dataList[i]['data']['price_overview']['final'])
+
+for i in range(len(priceList)):
+    if (priceList[i] == 0):
+        count += 1
+countList.append(count)
+count = 0
+
+for i in range(0, 500):
+    for j in range(len(priceList)):
+        if (priceList[j] <= upper and priceList[j] > lower):
+            count += 1
+
+    countList.append(count)
+    count = 0
+    upper += 100
+    lower += 100
+
+with open('result.csv', 'wb') as output:
+    for i in range(0, 501):
+        output.write(str(countList[i]))
+        output.write('\n')
