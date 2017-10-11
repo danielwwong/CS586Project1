@@ -106,5 +106,5 @@ Notes
 - May add histograms later.
 - May make it look better later.
 - The chart of number of games purchased per user is not generated be.
-- The chart of account value (total money spent on purchasing games per user is not generated.
+- The chart of account value (total money spent on purchasing games per user) is not generated.
 - The subgroups of regret games cannot be generated because I cannot divide the games based on its' types as I don't have the data of the game types.
