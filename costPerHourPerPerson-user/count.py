@@ -12,9 +12,15 @@ countList = []
 for i in range(len(data['playerId'])):
     dataList.append(data['AvgCostPerHour'][i])
 
+for i in range(len(dataList)):
+    if (dataList[i] == 0):
+        count += 1
+countList.append(count)
+count = 0
+
 for i in range(0, 510):
     for j in range(len(dataList)):
-        if (dataList[j] < upper and dataList[j] > lower):
+        if (dataList[j] <= upper and dataList[j] > lower):
             count += 1
 
     countList.append(count)
@@ -23,6 +29,6 @@ for i in range(0, 510):
     lower += 10
 
 with open('result.csv', 'wb') as output:
-    for i in range(0, 510):
+    for i in range(0, 511):
         output.write(str(countList[i]))
         output.write('\n')
