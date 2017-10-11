@@ -25,7 +25,7 @@ https://steamdb.info/blog/store-prices-api/
 Charts
 ===
 
-*Please click on the chart to download the original picture.*
+*Please click on the chart to download the original picture. All blue words are links. Please click on the blue words to go to the corresponding file/folder.*
 
 **[costPerHourPerPerson-game Folder](https://github.com/danielwwong/CS586Project1/tree/master/costPerHourPerPerson-game)**
 
@@ -98,3 +98,11 @@ All current game prices in Steam is included in this chart, free games are inclu
 ![img](https://github.com/danielwwong/CS586Project1/blob/master/descriptiveFigures/result(interval%3D0.5%20top20).png)
 
 The games that have the price of $0-$20 is included. The price interval is $0.5. **The games that have the price within $0-$20 is 95.62% of all games.**
+
+---
+Notes
+===
+
+- May add histograms later.
+- The chart of number of games purchased per user is not generated because of lack of data.
+- The chart of account value (total money spent on purchasing games per user is not generated because of lack of data.
