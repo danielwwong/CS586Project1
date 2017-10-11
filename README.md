@@ -20,3 +20,14 @@ Due to the problem that Steam API will not response after several hundreds of HT
 
 Check this for Steam API's limitation:
 https://steamdb.info/blog/store-prices-api/
+
+---
+Charts
+===
+[costPerHourPerPerson-game Folder](https://github.com/danielwwong/CS586Project1/tree/master/costPerHourPerPerson-game)
+
+In this folder, the games information was divided into 2 parts, based on the average play time/person. It was divided by < 1 and >= 1.
+
+**[<1(regret games)](https://github.com/danielwwong/CS586Project1/tree/master/costPerHourPerPerson-game/%3C1)**
+
+![img](https://github.com/danielwwong/CS586Project1/raw/master/costPerHourPerPerson-game/%3C1/result(interval%3D1%20all).png)
