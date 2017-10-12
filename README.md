@@ -124,3 +124,7 @@ All sample users' number of games are included in this chart. The number of game
 ![img](https://github.com/danielwwong/CS586Project1/blob/master/descriptiveFigures/resultNumberOfGames(interval%3D1%20top125).png)
 
 The users' number of games that is within 0-125 are included. The number of games interval is 1. **The users' number of games that is in the range of 0-125 is 98.81% of all sample users.**
+
+![img](https://github.com/danielwwong/CS586Project1/blob/master/descriptiveFigures/resultForPie.png)
+
+In this chart, we used 12,393 games information. All these games are not free, which means the price is > 0. **11.09% of the purchased games are never played. And 90.07% of purchased games are played less than 10 hours.**
