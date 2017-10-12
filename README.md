@@ -97,7 +97,7 @@ This chart included the sample users that have cost/hr within 0-5. The interval 
 
 **[descriptiveFigures Folder](https://github.com/danielwwong/CS586Project1/tree/master/descriptiveFigures)**
 
-In this folder, game price distribution was drew.
+In this folder, game price distribution and account value distribution are drawn.
 
 ![img](https://github.com/danielwwong/CS586Project1/blob/master/descriptiveFigures/result(interval%3D1%20all).png)
 
@@ -107,9 +107,18 @@ All current game prices in Steam is included in this chart, free games are inclu
 
 The games that have the price of $0-$80 is included. The price interval is $2. **The games that have the price within $0-$80 is 99.73% of all games.**
 
+![img](https://github.com/danielwwong/CS586Project1/blob/master/descriptiveFigures/resultValue(interval%3D100%20all).png)
+
+We used 25,260 sample users' information to generate the user value distribution.
+
+All sample users' account values are included in this chart. The account value interval is $100. For example, there're 11,577 users' account value is 0, it is 45.83% of all sample users.
+
+![img](https://github.com/danielwwong/CS586Project1/blob/master/descriptiveFigures/resultValue(interval%3D15%20top3000).png)
+
+The users account value that is within $0-$3,000 are included. The account value interval is $15. **The users account value that is in $0-$3,000 is 99.45% of all sample users.**
+
 ---
 Notes
 ===
 
 - The chart of number of games purchased per user is not generated be.
-- The chart of account value (total money spent on purchasing games per user) is not generated.
