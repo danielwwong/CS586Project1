@@ -97,7 +97,7 @@ This chart included the sample users that have cost/hr within 0-5. The interval 
 
 **[descriptiveFigures Folder](https://github.com/danielwwong/CS586Project1/tree/master/descriptiveFigures)**
 
-In this folder, game price distribution and account value distribution are drawn.
+In this folder, game price distribution, account value distribution and number of games that users have distribution are drawn.
 
 ![img](https://github.com/danielwwong/CS586Project1/blob/master/descriptiveFigures/result(interval%3D1%20all).png)
 
@@ -109,13 +109,21 @@ The games that have the price of $0-$80 is included. The price interval is $2. *
 
 ![img](https://github.com/danielwwong/CS586Project1/blob/master/descriptiveFigures/resultValue(interval%3D100%20all).png)
 
-We used 25,260 sample users' information to generate the user value distribution.
+We used 25,260 sample users' information to generate the user value distribution and the number of games that users purchased distribution.
 
 All sample users' account values are included in this chart. The account value interval is $100. For example, there're 11,577 users' account value is 0, it is 45.83% of all sample users.
 
 ![img](https://github.com/danielwwong/CS586Project1/blob/master/descriptiveFigures/resultValue(interval%3D15%20top3000).png)
 
 The users account value that is within $0-$3,000 are included. The account value interval is $15. **The users account value that is in $0-$3,000 is 99.45% of all sample users.**
+
+![img](https://github.com/danielwwong/CS586Project1/blob/master/descriptiveFigures/resultNumberOfGames(interval%3D25%20all).png)
+
+All sample users' number of games are included in this chart. The number of games interval is 25. For example, there're 11,577 users do not have any games. It is 45.61% of all sample users.
+
+![img](https://github.com/danielwwong/CS586Project1/blob/master/descriptiveFigures/resultNumberOfGames(interval%3D1%20top125).png)
+
+The users' number of games that is within 0-125 are included. The number of games interval is 1. **The users' number of games that is in the range of 0-125 is 98.81% of all sample users.**
 
 ---
 Notes
