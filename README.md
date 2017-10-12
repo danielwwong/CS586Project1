@@ -105,6 +105,10 @@ This chart included the sample users that have cost/hr within 0-5. The interval 
 
 In this folder, game price distribution, account value distribution and number of games that users have distribution are drawn.
 
+![img](https://github.com/danielwwong/CS586Project1/blob/master/descriptiveFigures/priceResultForPie.png)
+
+The pie chart shows the proportion of the game price. **23.14% of the games are free.**
+
 ![img](https://github.com/danielwwong/CS586Project1/blob/master/descriptiveFigures/result(interval%3D1%20all).png)
 
 All current game prices in Steam is included in this chart, free games are included. The price interval is $1. For example, there're 9,400 free games, it is 23.14% of all games. And there're 3,547 games that are within $0-$1. It is 8.73% of all games.
