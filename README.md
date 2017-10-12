@@ -59,7 +59,13 @@ In this chart, the interval of the cost/hr/person is 4. The range of the cost/hr
 
 This folder contains the games that have the average play time/person >= 1.
 
-The cost/hr/person for those games were drew here.
+The game price distribution was drawn here.
+
+![img](https://github.com/danielwwong/CS586Project1/blob/master/costPerHourPerPerson-game/%3E%3D1/resultPrice.png)
+
+This chart included the games price are between $0-$50. The interval of the price is $1. **The games price that's in $0-$50 is 98.83% of all games that >=1.**
+
+The cost/hr/person for those games were drawn here.
 
 ![img](https://github.com/danielwwong/CS586Project1/blob/master/costPerHourPerPerson-game/%3E%3D1/result(interval%3D1%20all).png)
 
