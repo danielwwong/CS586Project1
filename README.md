@@ -39,9 +39,9 @@ This folder has the regret games price distributions.
 
 In this chart, all regret games were included. The interval of the price is $1. For example, for the price range of $0-$1, there're 566 regret games within this range. And it is 12.76% of all regret games.
 
-![img](https://github.com/danielwwong/CS586Project1/blob/master/costPerHourPerPerson-game/%3C1/result(interval%3D0.2%20top20).png)
+![img](https://github.com/danielwwong/CS586Project1/blob/master/costPerHourPerPerson-game/%3C1/result(interval%3D1%20top50).png)
 
-In this chart, only the games price are between $0-$20 were included. The interval of the price is $0.2. **The games price that's in $0-$20 is 97.57% of all regret games.**
+In this chart, only the games price are between $0-$50 were included. The interval of the price is $1. **The games price that's in $0-$50 is 99.64% of all regret games.**
 
 *If you want to calculate the mean value or the standard deviation value, etc., you could click [this csv file](https://github.com/danielwwong/CS586Project1/blob/master/costPerHourPerPerson-game/%3C1/result(interval%3D1%20all).csv) for all regret games prices.*
 
