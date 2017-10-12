@@ -43,6 +43,14 @@ In this chart, all regret games were included. The interval of the price is $1. 
 
 In this chart, only the games price are between $0-$50 were included. The interval of the price is $1. **The games price that's in $0-$50 is 99.64% of all regret games.**
 
+![img](https://github.com/danielwwong/CS586Project1/blob/master/costPerHourPerPerson-game/%3C1/resultTriple(interval%3D15%200-1500).png)
+
+In this chart, the games are divided into three groups, which are $0-$10, $10-$25 and $25+. The chart shows their cost/hr/person distributions. The interval of the cost/hr/person is 15. The range of the cost/hr/person is 0-1500.
+
+![img](https://github.com/danielwwong/CS586Project1/blob/master/costPerHourPerPerson-game/%3C1/resultTriple(interval%3D4%200-400).png)
+
+In this chart, the interval of the cost/hr/person is 4. The range of the cost/hr/person is 0-400.
+
 *If you want to calculate the mean value or the standard deviation value, etc., you could click [this csv file](https://github.com/danielwwong/CS586Project1/blob/master/costPerHourPerPerson-game/%3C1/result(interval%3D1%20all).csv) for all regret games prices.*
 
 ---
