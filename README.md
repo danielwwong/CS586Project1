@@ -95,15 +95,14 @@ In this folder, game price distribution was drew.
 
 All current game prices in Steam is included in this chart, free games are included. The price interval is $1. For example, there're 9,400 free games, it is 23.14% of all games. And there're 3,547 games that are within $0-$1. It is 8.73% of all games.
 
-![img](https://github.com/danielwwong/CS586Project1/blob/master/descriptiveFigures/result(interval%3D0.5%20top20).png)
+![img](https://github.com/danielwwong/CS586Project1/blob/master/descriptiveFigures/result(interval%3D2%20top80).png)
 
-The games that have the price of $0-$20 is included. The price interval is $0.5. **The games that have the price within $0-$20 is 95.62% of all games.**
+The games that have the price of $0-$80 is included. The price interval is $2. **The games that have the price within $0-$80 is 99.73% of all games.**
 
 ---
 Notes
 ===
 
-- May add histograms later.
 - May make it look better later.
 - The chart of number of games purchased per user is not generated be.
 - The chart of account value (total money spent on purchasing games per user) is not generated.
