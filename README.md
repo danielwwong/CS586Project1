@@ -6,7 +6,7 @@ The aim of this project is to gather all games' price on Steam.
 ---
 
 - *game.py* is the main code
-- *game.json* is the output of the games' price, currently, it has ***13,671*** records. There're ***48,213*** games on Steam.
+- *game.json* is the output of the games' price, currently, it has ***48,213*** records.
 - *gameID.json* is from http://api.steampowered.com/ISteamApps/GetAppList/v0001/
 It contains all games' IDs
 
